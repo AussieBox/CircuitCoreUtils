@@ -1,0 +1,9 @@
+{
+  "devDependencies": {
+    "blockbench-types": "^4.12.2",
+    "esbuild": "^0.28.1"
+  },
+  "scripts": {
+    "build": "esbuild src/circuit-core.js --bundle --outfile=build/circuit-core.js --platform=node --format=iife"
+  }
+}
